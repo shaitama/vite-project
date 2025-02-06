@@ -2,10 +2,11 @@
   "name": "vite",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://shaitama.github.io/vite-project/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist","homepage": "https://shaitama.github.io/vite-project/",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
